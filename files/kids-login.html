@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StreamVerse | Kids Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="auth-page" data-page="login-kid">
+  <div class="login-shell narrow">
+    <div class="brand-bar">
+      <div class="brand">StreamVerse</div>
+      <a href="/" class="back-link">← Back</a>
+    </div>
+
+    <div class="single-login-card kids-card">
+      <div class="icon-box kids-icon">🎈</div>
+      <div class="card-badge">Kids</div>
+      <h2>Login as Kid</h2>
+      <p>Only registered kid users can continue. Unapproved users are blocked.</p>
+
+      <div id="form-message" class="form-message"></div>
+
+      <form id="kids-form" class="auth-form">
+        <label>
+          Email
+          <input type="email" name="email" required placeholder="you@example.com" />
+        </label>
+        <label>
+          Password
+          <input type="password" name="password" required placeholder="Enter password" />
+        </label>
+        <button type="submit">Continue to Kids Zone</button>
+      </form>
+
+      <div class="register-row">
+        <span>Need an account?</span>
+        <button id="register-link" class="text-link-btn" type="button">Register here</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

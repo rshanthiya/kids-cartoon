@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StreamVerse | Kids</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="kids-page streaming-page" data-page="kids">
+  <header class="topbar">
+    <div class="brand-wrap">
+      <div class="brand">StreamVerse</div>
+      <nav class="main-nav">
+        <span>Home</span>
+        <span>Kids</span>
+        <span>My List</span>
+      </nav>
+    </div>
+    <div class="user-meta">
+      <div class="user-pill" id="welcome-name">Welcome</div>
+      <button class="logout-btn" id="logout-btn">Logout</button>
+    </div>
+  </header>
+
+  <section class="hero-banner kids-hero">
+    <div class="hero-content">
+      <span class="tagline">For kids</span>
+      <h1>Cartoon time</h1>
+      <p>Kid-safe shows, cheerful adventures, and playful learning content made for younger viewers.</p>
+      <div class="hero-actions">
+        <button>▶ Play</button>
+        <button class="secondary">+ My List</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="section-head">
+      <h2>Recommended for you</h2>
+    </div>
+    <div class="video-grid" id="video-list"></div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StreamVerse Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="auth-page">
+  <div class="login-shell">
+    <div class="brand-bar">
+      <div class="brand">StreamVerse</div>
+      <div class="tag">entertainment for every age</div>
+    </div>
+
+    <div class="selector-grid">
+      <button id="select-kids" class="role-selector kids-role">
+        <div class="role-icon">🎈</div>
+        <div class="role-text">
+          <span class="role-label">Kids</span>
+          <strong>Login as Kid</strong>
+        </div>
+      </button>
+
+      <button id="select-parent" class="role-selector parent-role">
+        <div class="role-icon">👨‍👩‍👧‍👦</div>
+        <div class="role-text">
+          <span class="role-label">Parent</span>
+          <strong>Login as Parent</strong>
+        </div>
+      </button>
+    </div>
+
+    <div class="register-row landing-register">
+      <span>New user?</span>
+      <button id="register-link" class="text-link-btn" type="button">Create an account</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
